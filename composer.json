@@ -1,0 +1,24 @@
+{
+    "name": "suzuki/phpunit-mailcatcher",
+    "require": {
+        "phpunit/phpunit": "^5.4",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Suzuki\\PHPUnit\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Suzuki\\PHPUnit\\" : "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Norio Suzuki",
+            "email": "norio.suzuki@gmail.com"
+        }
+    ]
+}
